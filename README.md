@@ -1,4 +1,6 @@
 # 📊 YottaFlex AI – Sales Booking Forecast
+📊 YottaFlex AI – Sales Booking Forecast
+🚀 Live Application: Open YottaFlex Sales Forecast Dashboard "https://rishipriyesh-salesforecasting-yottaflex.streamlit.app/"
 
 An end-to-end sales forecasting application designed to help businesses analyze CRM data, predict expected bookings, and evaluate different sales scenarios.
 
