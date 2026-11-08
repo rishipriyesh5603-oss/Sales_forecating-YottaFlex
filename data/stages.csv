@@ -1,0 +1,7 @@
+stage_id,stage_name,default_probability,stage_order
+STG-01,Prospecting,0.08,1
+STG-02,Qualification,0.2,2
+STG-03,Proposal,0.45,3
+STG-04,Negotiation,0.7,4
+STG-05,Closed Won,1.0,5
+STG-06,Closed Lost,0.0,6

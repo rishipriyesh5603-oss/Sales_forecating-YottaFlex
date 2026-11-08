@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "metrics": {
+    "sales_reps.csv": {
+      "rows": 2000,
+      "columns": 5
+    },
+    "accounts.csv": {
+      "rows": 2000,
+      "columns": 6
+    },
+    "opportunities.csv": {
+      "rows": 20000,
+      "columns": 14
+    },
+    "stage_history.csv": {
+      "rows": 36331,
+      "columns": 5
+    },
+    "activities.csv": {
+      "rows": 40000,
+      "columns": 6
+    },
+    "quotas.csv": {
+      "rows": 16000,
+      "columns": 6
+    },
+    "historical_bookings.csv": {
+      "rows": 5551,
+      "columns": 10
+    },
+    "forecast_snapshots.csv": {
+      "rows": 90270,
+      "columns": 12
+    },
+    "territories.csv": {
+      "rows": 5,
+      "columns": 5
+    },
+    "stages.csv": {
+      "rows": 6,
+      "columns": 4
+    },
+    "historical_booking_rollup.csv": {
+      "rows": 11,
+      "columns": 2
+    },
+    "ground_truth.csv": {
+      "rows": 5,
+      "columns": 6
+    }
+  }
+}

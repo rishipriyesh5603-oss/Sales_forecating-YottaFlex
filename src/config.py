@@ -1,0 +1,11 @@
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+DATA_DIR = PROJECT_ROOT / "data"
+SEED = 20261022
+N_REPS = 2000
+N_ACCOUNTS = 2000
+N_OPPORTUNITIES = 20000
+N_QUARTERS = 8
+AS_OF_DATE = "2026-10-31"
+CURRENCY = "USD"

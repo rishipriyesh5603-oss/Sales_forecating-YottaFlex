@@ -1,0 +1,6 @@
+territory_id,territory_name,region,effective_from,effective_to
+TER-001,North Territory,North,2024-01-01,
+TER-002,South Territory,South,2024-01-01,
+TER-003,East Territory,East,2024-01-01,
+TER-004,West Territory,West,2024-01-01,
+TER-005,Central Territory,Central,2024-01-01,2025-12-31

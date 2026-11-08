@@ -1,0 +1,6 @@
+issue_id,issue_type,entity_id,ground_truth_label,expected_detection,description
+ISSUE-001,forecast_uses_final_outcome,OPP-2026-000001,1,True,A downstream forecast was computed from final outcome rather than snapshot-time state.
+ISSUE-002,stage_probability_mismatch,OPP-2026-000002,1,True,Stored stage probability disagrees with the stage definition.
+ISSUE-003,duplicate_opportunity_counted,OPP-2026-000003,1,True,The same opportunity is duplicated in a forecast aggregation.
+ISSUE-004,close_date_before_creation,OPP-2026-000004,1,True,Close date precedes opportunity creation date.
+ISSUE-005,mixed_currency_total,OPP-2026-000005,1,True,A total combines unconverted currencies.

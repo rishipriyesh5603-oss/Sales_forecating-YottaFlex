@@ -1,0 +1,62 @@
+{
+  "generator": "yottaflex-synthetic-crm-v1",
+  "seed": 20261022,
+  "parameters": {
+    "sales_reps": 2000,
+    "accounts": 2000,
+    "opportunities": 20000,
+    "quarters": 8
+  },
+  "currency_policy": "Forecast totals use USD conversion: USD=1.00, EUR=1.08, INR=0.012.",
+  "outcome_policy": "Closed stages are fixed; open outcomes use a SHA256-derived uniform variate compared with stage probability adjusted for age.",
+  "tables": {
+    "sales_reps.csv": {
+      "rows": 2000,
+      "sha256": "8e698dde6e5e1ed0d291740fe47ef4c43e07d353f2187670d882a602a8ac8967"
+    },
+    "territories.csv": {
+      "rows": 5,
+      "sha256": "59aac622f749127a4edfc0ec4d9e5b8c3f49324b7182d0b71ebfcc0835b0ea08"
+    },
+    "accounts.csv": {
+      "rows": 2000,
+      "sha256": "a598be3d86cd25ca1546ce05d76788fc3056e55e55e34220d0945c31ab228924"
+    },
+    "stages.csv": {
+      "rows": 6,
+      "sha256": "69db7e5b1223db919b26479a75307c9634a86e5faee8c45a2510f517010c9176"
+    },
+    "opportunities.csv": {
+      "rows": 20000,
+      "sha256": "8a76020f4ff3ca4ad6381acac266b42600a35fe2c4a83b360cf03d48c9cbd3ab"
+    },
+    "stage_history.csv": {
+      "rows": 36331,
+      "sha256": "8024011bbf54e03772bc99e8d2aab9e1096aecfefaf62ce6823c2cc1651cbc4d"
+    },
+    "activities.csv": {
+      "rows": 40000,
+      "sha256": "7a16c841cbcdd9ebfac2f9b74ef9131e4b2c71bc59d7ebc60e8688131792606d"
+    },
+    "quotas.csv": {
+      "rows": 16000,
+      "sha256": "cfccb28aae1ba3649ded71aec5faca126ddd5dc8e6f131814d46b78333441e22"
+    },
+    "historical_bookings.csv": {
+      "rows": 5551,
+      "sha256": "38b2b74936c704ab5037d02ff033b9d709a0fe88f664e2a35ee034ad460ad849"
+    },
+    "historical_booking_rollup.csv": {
+      "rows": 11,
+      "sha256": "fa4caef944e57f9326382d14c288ca328765be84db4fbe092bc2a84791032280"
+    },
+    "forecast_snapshots.csv": {
+      "rows": 90270,
+      "sha256": "9029412930a44519dafa38c7cc386888426599ab13eae95584f9fa69a9d714a7"
+    },
+    "ground_truth.csv": {
+      "rows": 5,
+      "sha256": "f7909a74376f954ee377b24a2e7e72edf32656534efbc97583e3d7187851b2f3"
+    }
+  }
+}
